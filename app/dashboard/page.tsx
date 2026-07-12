@@ -68,14 +68,6 @@ const handleProfileImage = (
 • Expected launch date?
 `;
 
-  // const handleGenerate = () => {
-  //   if (!requirements.trim()) {
-  //     alert("Please enter project requirements");
-  //     return;
-  //   }
-
-  //   setShowAnalysis(true);
-  // };
 const handleGenerate = async () => {
   if (!requirements.trim()) {
     alert("Please enter project requirements");
