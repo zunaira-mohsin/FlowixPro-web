@@ -10,21 +10,6 @@
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const router = useRouter();
-
-    // Google Login
-    // const handleGoogleSuccess = (
-    //   credentialResponse: CredentialResponse
-    // ) => {
-    //   console.log(credentialResponse);
-
-    //   Swal.fire({
-    //     icon: "success",
-    //     title: "Google Login Successful",
-    //     text: "Welcome to FlowixPro!",
-    //   });
-
-    //   localStorage.setItem("isLoggedIn", "true");
-    // };
     const handleGoogleSuccess = (
   credentialResponse: CredentialResponse
 ) => {
